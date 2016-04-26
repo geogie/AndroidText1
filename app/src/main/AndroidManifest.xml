@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.androidtext1.com.androidtext1">
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity1.GreenDaoActivity" />
+        <activity android:name=".activity2.WigetPageActivity" />
+        <activity android:name=".OnTouchOnClickActivity" />
+        <activity android:name=".activity.DraggableGridViewSampleActivity" />
+        <activity android:name=".activity3.AvatarImageViewActivity"></activity>
+        <activity android:name=".activity4.CircularRevealAnimationActivity">
+
+        </activity>
+        <activity android:name=".activity1.activity.OneTableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
