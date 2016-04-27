@@ -11,16 +11,17 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape">
+
+        </activity>
         <activity android:name=".activity1.GreenDaoActivity" />
         <activity android:name=".activity2.WigetPageActivity" />
         <activity android:name=".OnTouchOnClickActivity" />
         <activity android:name=".activity.DraggableGridViewSampleActivity" />
-        <activity android:name=".activity3.AvatarImageViewActivity"></activity>
-        <activity android:name=".activity4.CircularRevealAnimationActivity">
-
-        </activity>
-        <activity android:name=".activity1.activity.OneTableActivity">
+        <activity android:name=".activity3.AvatarImageViewActivity" />
+        <activity android:name=".activity4.CircularRevealAnimationActivity"></activity>
+        <activity android:name=".activity1.activity.OneTableActivity"></activity>
+        <activity android:name=".activity5.CustomViewScrollActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

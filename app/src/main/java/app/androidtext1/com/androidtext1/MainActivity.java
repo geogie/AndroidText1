@@ -18,11 +18,14 @@ import app.androidtext1.com.androidtext1.helper.SimpleItemTouchHelperCallback;
 public class MainActivity extends Activity implements OnStartDragListener{
     private String TAG = "MainActivity";
     private RecyclerView mRecyclerView;
+
     private ItemTouchHelper mItemTouchHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        float a = 5/10;
+        Log.i(TAG,"Mytest:"+a);
         mRecyclerView = (RecyclerView) findViewById(R.id.mRecyclerView);
         mRecyclerView.addItemDecoration(new RecyclerView.ItemDecoration() {
             @Override
